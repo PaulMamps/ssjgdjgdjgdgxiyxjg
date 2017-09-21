@@ -53,7 +53,7 @@
 						submenuClassPrefix: 'level-',
 					
 					// Menu mode ("instant", "fade", "slide", "zoom").
-						mode: 'fade',
+						mode: 'instant',
 					
 					// Menu speed ("fast", "slow", or ms).
 						speed: 'fast',
@@ -80,7 +80,7 @@
 						IEOffsetY: 0,
 					
 					// If true and mode = "fade", prevents top-level opener fade.
-						noOpenerFade: true,
+						noOpenerFade: false,
 					
 					// Detach second level menus (prevents parent style bleed).
 						detach: true,
